@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+}
+
+.sidebar-toggle {
+  position: fixed;
+  top: 2rem;
+  right: 3rem;
+}
+.sidebar-left {
+  width: 30%;
+  height: 100%;
+  position: fixed;
+  display: grid;
+  grid-template-rows: auto 1.5fr 1fr;
+  background-color: rgb(240, 234, 234);
+  padding: 1.5rem;
+}
+.sidebar-left-close {
+  font-size: 1.4rem;
+  width: 3rem;
+  position: relative;
+  right: -19rem;
+}
+.sidebar-left-links {
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  list-style: none;
+  padding: 0;
+}
+.sidebar-left-links li {
+  padding: 2rem;
+  transition: 0.3s delay;
+}
+.sidebar-left-links li a {
+  text-decoration: none;
+}
+.sidebar-left-links li:hover {
+  background-color: azure;
+}/*# sourceMappingURL=style.css.map */
