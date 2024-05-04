@@ -31,6 +31,8 @@
   row-gap: 1rem;
   background-color: rgb(240, 234, 234);
   padding: 1.5rem 0rem;
+  transition: all 0.3s linear;
+  opacity: 0;
 }
 .sidebar-left-close {
   padding: 0rem 2rem;
@@ -74,4 +76,13 @@
   margin: 0 0.5rem;
   transition: 0.3s linear;
   color: aqua;
+}
+
+.visible {
+  opacity: 1;
+  pointer-events: visiblePainted;
+}
+
+.hidden {
+  opacity: 0;
 }/*# sourceMappingURL=style.css.map */
